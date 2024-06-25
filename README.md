@@ -24,7 +24,15 @@ Simple AI app built using NextJS 14 to ask tech related doubts to help advance i
 
 ## Getting Started
 
-First, run the development server:
+This project requires API Key for Google's Gemini, you can generate your own [apiKey](https://aistudio.google.com/app/apikey)
+
+Create a .env file and add
+
+```
+GOOGLE_API_KEY={{your_api_key}}
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -34,6 +42,3 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
